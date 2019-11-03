@@ -14,5 +14,8 @@ class MainActivity : AppCompatActivity() {
         buttonSensorProximidade.setOnClickListener {
             startActivity(Intent(this, ProximidadeActivity::class.java))
         }
+        buttonSensorLight.setOnClickListener {
+            startActivity(Intent(this, SensorLightActivity::class.java))
+        }
     }
 }
