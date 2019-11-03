@@ -17,5 +17,9 @@ class MainActivity : AppCompatActivity() {
         buttonSensorLight.setOnClickListener {
             startActivity(Intent(this, SensorLightActivity::class.java))
         }
+
+        buttonSensorAccelerometer.setOnClickListener {
+            startActivity(Intent(this, AccelerometerActivity::class.java))
+        }
     }
 }

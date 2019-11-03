@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
+    android:id="@+id/telaProximacao"
     tools:context=".ProximidadeActivity">
 
     <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifImg"
-        android:src="@drawable/img"
+        android:id="@+id/gifImg2"
+        android:src="@drawable/img2"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

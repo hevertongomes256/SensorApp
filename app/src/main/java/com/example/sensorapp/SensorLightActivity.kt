@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_proximidade.*
+import kotlinx.android.synthetic.main.activity_sensor_light.*
 import java.io.IOException
 
 class SensorLightActivity : AppCompatActivity(), SensorEventListener {
