@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AccelerometerActivity"></activity>
+        <activity android:name=".GiroscopioActivity"></activity>
+        <activity android:name=".AccelerometerActivity" />
         <activity android:name=".SensorLightActivity" />
         <activity android:name=".ProximidadeActivity" />
         <activity android:name=".MainActivity">
