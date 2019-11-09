@@ -5,22 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:background="@drawable/linear_background"
     tools:context=".MainActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:gravity="center"
         android:orientation="vertical">
+
 
         <Button
             android:id="@+id/buttonSensorProximidade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
+            android:background="@drawable/round_btn_linear"
             android:padding="20dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
             android:text="Sensor Proximidade"
             android:textAllCaps="true"
+            android:textColor="#ffffff"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -28,10 +37,15 @@
             android:id="@+id/buttonSensorLight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
+            android:background="@drawable/round_btn_linear"
             android:padding="20dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
             android:text="Sensor Light"
             android:textAllCaps="true"
+            android:textColor="#ffffff"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -39,10 +53,15 @@
             android:id="@+id/buttonSensorAccelerometer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
+            android:background="@drawable/round_btn_linear"
             android:padding="20dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
             android:text="Sensor Accelerometer"
             android:textAllCaps="true"
+            android:textColor="#ffffff"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -50,10 +69,15 @@
             android:id="@+id/buttonSensorGiroscopio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
+            android:background="@drawable/round_btn_linear"
             android:padding="20dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
             android:text="Sensor Gyroscope"
             android:textAllCaps="true"
+            android:textColor="#ffffff"
             android:textSize="20sp"
             android:textStyle="bold" />
 
