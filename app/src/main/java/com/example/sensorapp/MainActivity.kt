@@ -21,5 +21,9 @@ class MainActivity : AppCompatActivity() {
         buttonSensorAccelerometer.setOnClickListener {
             startActivity(Intent(this, AccelerometerActivity::class.java))
         }
+
+        buttonSensorGiroscopio.setOnClickListener {
+            startActivity(Intent(this, GiroscopioActivity::class.java))
+        }
     }
 }

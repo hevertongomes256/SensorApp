@@ -1,14 +1,12 @@
 package com.example.sensorapp
 
 import android.content.Context
-import android.graphics.Color
 import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_accelerometer.*
 
 class AccelerometerActivity : AppCompatActivity(), SensorEventListener {

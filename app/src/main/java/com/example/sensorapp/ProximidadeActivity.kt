@@ -36,7 +36,8 @@ class ProximidadeActivity : AppCompatActivity(), SensorEventListener {
         val distance = event.values[0]
         textProximidade.text = distance.toString()
 
-        if(distance >= 8){
+        // Valor muda de aparelho para aparelho pode ser: 5,8,10...
+        if(distance >= 5){
             ivMicrofone.setImageResource(R.drawable.fone2)
         }else{
             ivMicrofone.setImageResource(R.drawable.fone)
